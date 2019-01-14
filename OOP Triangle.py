@@ -1,17 +1,4 @@
-"""
-Project 3 Description
 
-Create a Python class Triangle. Each instance of this class takes 6 values Ax,Ay,Bx,By,Cx,Cy as arguments
-that represent the (x,y) coordinates for three points A, B, and C. In addition, overload the str() function
-so that we can print the triangle as "Triangle((Ax,Ay),(Bx,By),(Cx,Cy))" and create the following methods: Area,
-which returns the area of a triangle, Perimeter, which returns the perimeter of a triangle, Barycenter, which returns
-the center of a triangle, LongestSide, which returns the length of the longest side in the triangle, and IsRightTriangle,
-which returns True if a triangle is a right triangle or False if it is not a right triangle.
-
-
-In your .txt version of the report, include the Python code and the output returned by all methods 
-for the triangle T, given by the points A = (3, -5), B = (15, 4), C = (-6,10)
-"""
 
 import math
 class Triangle(object):
